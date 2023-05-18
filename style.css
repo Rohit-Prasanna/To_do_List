@@ -54,6 +54,7 @@ input {
     border-radius: 0;
     margin-left: 300px;
     align-self: center;
+    margin-bottom: 20px; /* Add margin-bottom to create a gap */
   }
   .footer{
     display: flex;
@@ -71,7 +72,7 @@ input {
     margin-bottom: auto; 
   }
 
-  ul {
+  /* ul {
     list-style: none;
   }
 
@@ -84,7 +85,24 @@ input {
     font-size: 18px;
     transition: 0.2s;
   
+  } */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgba(153, 153, 153, 0.7);
+    border-radius: 12px;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 10px; /* Add margin-bottom for the gap */
+  }
+  
   .checked {
     background: rgb(140, 222, 140);
     opacity: 0.6;
@@ -96,6 +114,7 @@ input {
 .drpbtn{
   display: flex;
   justify-content: space-between;
+
 }
 
 
